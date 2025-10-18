@@ -33,10 +33,6 @@ ul li a {
   font-weight: bold;
   transition: 0.4s ease-in-out;
 }
-
-ul li a:hover {
-  color: orange;
-}
 ul {
   margin-top: 0px;
 }
@@ -55,9 +51,6 @@ ul {
   color: black;
 }
 
-.cn:hover {
-  background-color: orange;
-}
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -125,12 +118,6 @@ ul {
   cursor: pointer;
   transition: 0s ease;
 }
-
-.btn:hover {
-  background: orange;
-  color: white;
-}
-
 .btn a {
   color: black;
   font-weight: bold;
@@ -156,9 +143,6 @@ ul {
   margin-top: 10px;
 }
 
-.form .sign-up-link:hover {
-  color: orange;
-}
 
 
 
