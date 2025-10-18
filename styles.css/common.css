@@ -1,1 +1,55 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial;
+}
 
+.navbar {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0px 20px;
+}
+
+ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: orange;
+}
+
+.cn {
+  display: block;
+  width: 160px;
+  margin: 0px auto 40px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: white;
+  transition: 0.3s ease;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black;
+}
+
+.cn:hover {
+  background-color: orange;
+}
