@@ -1,10 +1,12 @@
 body {
-  background-image: url('../img/cover photo of the page.jpg');
+  body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url('../imag/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
+  color: #333;
 ul {
   margin-top: 0px;
 }
@@ -12,15 +14,15 @@ ul {
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  color: orange;
+  justify-content: right bottom;
+  color: black;
   max-width: 90%;
   margin: 40px auto 0px;
   gap: 30px;
 }
 
 .content h1 {
-  font-size: 50px;
+  font-size: 0px;
   font-family: "Times New Roman";
   margin-top: 5%;
   margin-bottom: 1%;
@@ -43,7 +45,7 @@ ul {
 .form h2 {
   color: black;
   font-size: 22px;
-  background-color: orange;
+  background-color: dark green;
   padding: 15px;
   border-radius: 10px;
 }
