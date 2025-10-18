@@ -14,7 +14,7 @@ ul {
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: right bottom;
+  justify-content: center;
   color: black;
   max-width: 90%;
   margin: 40px auto 0px;
