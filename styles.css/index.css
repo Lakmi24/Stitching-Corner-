@@ -1,5 +1,4 @@
 body {
-  body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-image: url('../img/cover photo of the page.jpg');
@@ -7,6 +6,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: #333;
+}
+  
 ul {
   margin-top: 0px;
 }
